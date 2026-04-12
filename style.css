@@ -1,39 +1,32 @@
+
 body {
     background-color: #26004d;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     color: white;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 
 h1.top {
     color: lightgray;
-    font-size: clamp(25px, 5vw, 50px); 
+    font-size: 40px;
     border: 5px solid lightgray;
-    text-align: center;
+    display: inline-block;
+    padding: 10px 30px;
     margin: 20px auto;
-    padding: 10px;
-    width: fit-content;
-}
-
-
-h1.hoome, h1.home {
-    color: lightgray;
-    font-size: 24px;
-    text-align: center;
-    margin: 20px 10px;
 }
 
 
 nav ul {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
-    list-style: none;
-    padding: 10px;
-    margin: 0;
-    gap: 10px;
+    list-style: none; 
+    padding: 0;
+    margin: 20px 0;
+    gap: 15px;
 }
 
 nav ul li a {
@@ -41,118 +34,87 @@ nav ul li a {
     text-decoration: none;
     color: white;
     background-color: #34495e;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: 1px solid white;
     border-radius: 5px;
     transition: 0.3s;
-    font-size: 16px;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
     background-color: #3498db;
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 }
 
 
 table {
     width: 90%;
-    max-width: 800px;
     margin: 20px auto;
     border-collapse: collapse;
     background: lightgray;
     color: #26004d;
 }
 
-table th, table td {
-    padding: 12px;
-    border: 1px solid #999;
-    text-align: center;
-}
-
-table th {
-    background-color: #34495e;
-    color: white;
-}
+th, td { padding: 12px; border: 1px solid #999; }
 
 form {
-    max-width: 90%;
-    width: 400px;
+    max-width: 500px;
     margin: 20px auto;
     background: lightgray;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     color: #26004d;
-    text-align: left; 
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; 
-}
-
-button {
-    background-color: #26004d;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 10px;
-    width: 100%;
 }
 
 
-p.foter, p.contact, h2, h2.con {
-    color: lightgray;
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    display: inline-block; 
     text-align: center;
 }
 
-ul.list {
-    list-style: none;
-    padding: 0;
+.list li {
+    font-size: 20px;
+    margin: 10px 0;
     color: lightgray;
 }
 
-ul.list li {
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-/
 @media (max-width: 600px) {
+   
+    body { padding: 10px; }
+
     
     nav ul {
         flex-direction: column;
         align-items: center;
+        gap: 8px; 
     }
 
-    nav ul li {
-        width: 85%;
-    }
-
+    nav ul li { width: 90%; }
+    
     nav ul li a {
         display: block;
         width: 100%;
         box-sizing: border-box;
     }
 
-    
+    /* العناوين تتظبط للموبايل */
+    h1.top { font-size: 24px; padding: 10px; }
+    h1.hoome, h1.home { font-size: 18px; }
+
+ 
     table {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
     }
 
-    h1.top { font-size: 28px; border-width: 5px; }
-    h1.hoome, h1.home { font-size: 20px; }
-    ul.list li { font-size: 16px; }
+   
+    form { width: 100%; box-sizing: border-box; }
+    input, textarea { width: 100%; box-sizing: border-box; }
 }
-
-
 
     
 
