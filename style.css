@@ -121,7 +121,36 @@ p.foter {color : lightgray ;   font-size : 20px ;   text-align :center ; margin 
 
 ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; margin :30px ; list-style: none  }
 
+@media (max-width: 600px) {
+    
+    h1 { font-size: 24px; }
+    h2 { font-size: 20px; }
+    p, li { font-size: 18px; }
 
+   
+    nav ul {
+        flex-wrap: wrap; 
+        gap: 10px;
+    }
+
+    nav ul li a {
+        padding: 8px 12px; 
+        font-size: 14px;
+    }
+
+    
+    table {
+        display: block;
+        overflow-x: auto; 
+        width: 100%;
+    }
+
+    
+    form {
+        width: 90%; 
+        padding: 15px;
+    }
+}
 
 
 
