@@ -106,7 +106,7 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
 
 @media (max-width: 600px) {
 
-    body { padding: 10px; }
+    body { padding: 5px; }
 
     
     nav ul {
@@ -127,8 +127,8 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
     }
 
     
-    h1.top { font-size: 24px; padding: 10px; }
-    h1.hoome, h1.home { font-size: 18px; }
+    h1.top { font-size: 24px; padding: 5px; }
+    h1.hoome, h1.home { font-size: 25px; text-align : center ;}
 
     
     table {
