@@ -100,26 +100,45 @@ button:hover {
 }
 
 
-
-
-@media (max-width: 768px) {
-    nav ul li {
-        display: block;         margin: 5px 0;  }
-
-    table {
-        width: 100%;
-        display: block;
-        overflow-x: auto; 
-    }
-
-    form {
-        width: 90%;
-    }
-}
-
 p.foter {color : lightgray ;   font-size : 20px ;   text-align :center ; margin :5px ;}
 
 ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; margin :30px ; list-style: none  }
+
+@media (max-width: 600px) {
+
+    body { padding: 10px; }
+
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px; 
+    }
+
+    nav ul li { width: 90%; }
+    
+    nav ul li a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    
+    h1.top { font-size: 24px; padding: 10px; }
+    h1.hoome, h1.home { font-size: 18px; }
+
+    
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    
+    form { width: 100%; box-sizing: border-box; }
+    input, textarea { width: 100%; box-sizing: border-box; }
+}
+
 
 
 
