@@ -102,7 +102,7 @@ button:hover {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     nav ul li {
         display: block;         margin: 5px 0;  }
 
