@@ -112,6 +112,7 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
     nav ul {
         flex-direction: column;
         align-items: center;
+        margin : 5px , 0 ;
         gap: 2px; 
     }
 
@@ -121,6 +122,8 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         display: block;
         width: 100%;
         box-sizing: border-box;
+        padding : 8px ;
+        font-size : 14 px ;
     }
 
     
@@ -172,6 +175,8 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         text-align: center;
         color: lightgray;
         width: 100%;
+        margin : 5px , 0 ;
+        font-size :14px ;
     }
 }
 
