@@ -100,70 +100,8 @@ button:hover {
 }
 
 
-@media (max-width: 600px) {
-    body {
-        font-size: 16px;
-        -webkit-text-size-adjust: 100%;
-        padding: 10px;
-    }
 
-    h1 { font-size: 1.6rem; text-align: center; margin: 10px 0; }
-    h2 { font-size: 1.3rem; text-align: center; margin: 15px 0; }
-    p, li, label, input, td, th { font-size: 15px; }
-
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        list-style-type: none;
-        padding: 0;
-        margin: 0 0 20px 0;
-        width: 100%;
-    }
-
-    nav ul li {
-        width: 90%;
-        margin-bottom: 5px;
-    }
-
-    nav ul li a {
-        display: block;
-        padding: 12px;
-        text-align: center;
-        background-color: #34495e;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-    }
-
-    table {
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-        white-space: nowrap;
-        border-collapse: collapse;
-    }
-
-    th, td { padding: 10px; border: 1px solid #ddd; }
-
-    form {
-        width: 100%;
-        box-sizing: border-box;
-        padding: 15px;
-    }
-
-    input, textarea, button {
-        width: 100%;
-        box-sizing: border-box;
-        margin-top: 5px;
-        font-size: 16px;
-    }
-
-    section {
-        padding: 10px;
-        margin-bottom: 20px;
-    }
-}
+   
 
     
 
