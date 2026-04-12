@@ -124,7 +124,7 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         display: block;
         width: 100%;
         box-sizing: border-box;
-        padding : 1px ;
+        padding : 0 ;
         font-size : 8 px ;
     }
 
@@ -161,26 +161,7 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         box-sizing: border-box;
     }
 
-    ul.list {
-        display: flex;
-        flex-direction: column; 
-        align-items: center;    
-        list-style: none;
-        padding: 0;
-        margin: 1px 0;
-        width: 100%;
-    }
-
-    ul.list li {
-        font-size: 10px;
-        margin-bottom: 0px;    
-        padding :1px ;
-        text-align: center;
-        color: lightgray;
-        width: 100%;
-        margin : 0 ;
-        font-size :14px ;
-    }
+  
 }
 
 
