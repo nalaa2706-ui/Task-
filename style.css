@@ -165,17 +165,17 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         align-items: center;    
         list-style: none;
         padding: 0;
-        margin: 10px 0;
+        margin: 5px 0;
         width: 100%;
     }
 
     ul.list li {
-        font-size: 18px;
-        margin-bottom: 3px;    
+        font-size: 10px;
+        margin-bottom: 1px;    
         text-align: center;
         color: lightgray;
         width: 100%;
-        margin : 5px , 0 ;
+        margin : 3px , 0 ;
         font-size :14px ;
     }
 }
