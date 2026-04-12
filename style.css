@@ -110,20 +110,22 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
 
     
     nav ul {
+        display : flex ;
         flex-direction: column;
         align-items: center;
-        margin : 3px , 0 ;
+        margin : 0;
         gap: 2px; 
     }
 
-    nav ul li { width: 100%; }
+    nav ul li { width: 100%;
+              margin :0;}
     
     nav ul li a {
         display: block;
         width: 100%;
         box-sizing: border-box;
         padding : 1px ;
-        font-size : 10 px ;
+        font-size : 8 px ;
     }
 
     
