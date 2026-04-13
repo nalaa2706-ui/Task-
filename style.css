@@ -116,7 +116,7 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         margin : auto ;
         width:100%;
         padding-left : 0px ;
-        gap : 1px ;
+        gap : 0px ;
         
         
     }
@@ -182,7 +182,7 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
                
                }
    
-  p.foter {color : lightgray ;   font-size : 8px ;   text-align :center ; margin-top: 20px; }
+  p.foter {color : lightgray ;   font-size : 8px ;   text-align :center ; margin-top: 20px; padding-left : 0px ;}
 }
 
 
