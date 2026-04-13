@@ -116,6 +116,7 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         margin : auto ;
         width:100%;
         padding-left : 0px ;
+        gap : 1px ;
         
         
     }
