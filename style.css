@@ -128,7 +128,7 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         display: block;
         width: 100%;
         box-sizing: border-box;
-        margin : 1px auto ;
+        margin : 0px auto ;
         gap : 0px ;
         font-size : 8 px ;
     }
