@@ -114,7 +114,9 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         align-items: center;
         list-style : none ;
         margin : auto ;
-        width:100% ;
+        width:100%;
+        padding-left : 0px ;
+        
         
     }
 
