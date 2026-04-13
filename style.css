@@ -99,8 +99,7 @@ button:hover {
     background-color: lightgray;
 }
 
-
-p.foter {color : lightgray ;   font-size : 20px ;   text-align :center ; margin :5px ;}
+ p.foter {color : lightgray ;   font-size : 12px ;   text-align :center ; margin-top: 20px; }
 
 ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; margin :30px ; list-style: none  }
 
