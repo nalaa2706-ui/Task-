@@ -164,13 +164,8 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
     }
 
 
-   ul. list {
-     text-align : center ;
-    font-size :26px ;
-      margin: 5px;
-        width: 100% ;
-       
-   }
+   ul,list,li  {color : lightgray ;   font-size : 26px ;   text-align :center ; margin :2px ; list-style: none  }
+   
   
 }
 
