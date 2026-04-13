@@ -164,9 +164,9 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
     }
 
 
-   ul,list,li  {color : lightgray ;   font-size : 26px ;   text-align :center ; margin :2px ; list-style: none  }
+   ul,list,li  {color : lightgray ;   font-size : 26px ;   text-align :center ; gap: 3px ; list-style: none  }
    
-  
+  p.foter {color : lightgray ;   font-size : 10px ;   text-align :center ; }
 }
 
 
