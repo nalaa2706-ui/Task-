@@ -161,6 +161,14 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         box-sizing: border-box;
     }
 
+
+   ul. li.class {
+     text-align : center ;
+    font-size :26px ;
+      margin: 5px;
+        width: 100% ;
+       
+   }
   
 }
 
