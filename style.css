@@ -127,7 +127,7 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         display: block;
         width: 100%;
         box-sizing: border-box;
-        margin : 5px auto ;
+        margin : 1px auto ;
         font-size : 8 px ;
     }
 
