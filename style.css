@@ -115,6 +115,8 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
         align-items: center;
         margin : 0;
         gap: 0; 
+        width:100% ;
+        
     }
 
     nav ul li { width: 100%;
