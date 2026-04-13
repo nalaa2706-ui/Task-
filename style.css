@@ -166,7 +166,7 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
 
    ul,list,li  {color : lightgray ;   font-size : 20px ;
                 text-align :center ;
-                gap: 5px ; 
+                gap: 3px ; 
                 list-style: none ;
                 display : block ; 
                 flex-direction :column ; 
