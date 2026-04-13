@@ -164,7 +164,7 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
     }
 
 
-   ul. li.class {
+   ul. list {
      text-align : center ;
     font-size :26px ;
       margin: 5px;
