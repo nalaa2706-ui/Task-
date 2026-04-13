@@ -164,7 +164,19 @@ ul,list,li  {color : lightgray ;   font-size : 30px ;   text-align :center ; mar
     }
 
 
-   ul,list,li  {color : lightgray ;   font-size : 10px ;   text-align :center ; gap: 5px ; list-style: none ; display : flex ; flex-direction :column ; align-items : center ; }
+   ul,list,li  {color : lightgray ;   font-size : 10px ;
+                text-align :center ;
+                gap: 5px ; 
+                list-style: none ;
+                display : block ; 
+                flex-direction :column ; 
+                align-items : center ; 
+                overflow-wrap : break-word ;
+               
+               
+               
+               
+               }
    
   p.foter {color : lightgray ;   font-size : 8px ;   text-align :center ; margin-top: 20px; }
 }
